@@ -23,3 +23,13 @@
 
 ## Selecting with tag 
 - document.getElemntByTagName("myTagName")
+
+# Querry Selector 
+- document.querySelector("myId/myClass/tag") *return first element*
+- document.querySelectorAll("myId/myClass/tag") *return a Nodelisst*
+
+# Properties *GET / SET / UPDATE*
+- tagName : return tag of elements nodes 
+- innerText : return the text content of the elements and  all its children 
+- innerHTML : return the plain text or HTML content in the element 
+- textContent : return texual content even for hidden content 
