@@ -9,23 +9,35 @@
 
 
 // Day 2
-heading = document.getElementById('heading') 
-console.dir(heading)
+// heading = document.getElementById('heading') 
+// console.dir(heading)
 
-heads = document.getElementsByClassName('heads')   // HTML collections
-console.log(heads)     
+// heads = document.getElementsByClassName('heads')   // HTML collections
+// console.log(heads)     
 
-let para = document.getElementsByTagName('p')
-console.dir(para)
+// let para = document.getElementsByTagName('p')
+// console.dir(para)
 
-let firstElement = document.querySelector("p") // tag name
-console.dir(firstElement)   // first element
+// let firstElement = document.querySelector("p") // tag name
+// console.dir(firstElement)   // first element
 
-let allElemnt = document.querySelectorAll("p") //tag name
-console.dir(allElemnt)   // all elements 
+// let allElemnt = document.querySelectorAll("p") //tag name
+// console.dir(allElemnt)   // all elements 
 
-let queryClass = document.querySelectorAll('.heads') // class name
-console.dir(queryClass)
+// let queryClass = document.querySelectorAll('.heads') // class name
+// console.dir(queryClass)
 
-let queryId = document.querySelector("#heading")  // id
-console.dir(queryId)
+// let queryId = document.querySelector("#heading")  // id
+// console.dir(queryId)
+
+
+// Day 3 
+// console.log(document.querySelector('div').firstChild);
+// console.log(document.querySelector('div').firstChild.nodeName);
+
+// console.log(document.querySelector('div').innerHTML)
+
+
+
+// let data = document.querySelector('div').innerHTML = "<h1> hello </h1>"
+// console.log(data)
