@@ -41,3 +41,34 @@
 
 // let data = document.querySelector('div').innerHTML = "<h1> hello </h1>"
 // console.log(data)
+
+
+// Day 4
+// <!-- Create a H2 heading element with text - "Hello JavaScript" . Append "From Apna College Students" to this text using the js -->
+// let h2 = document.getElementById('head')
+// console.log(h2)
+// h2.innerText = "From Apna College Students"
+
+// Create 3 div with the common classname - "box" . Access them & add some unique text to each of them
+
+// let boxes = document.getElementsByClassName('box')
+// console.log(boxes)
+// method 1
+// boxes[0].innerHTML ="Hello i am first"
+// boxes[1].innerHTML ="Hello i am second"
+// boxes[2].innerHTML ="Hello i am third"
+// method 2
+// let i = 1
+// for ( box of boxes) {
+//     box.innerHTML = `i am ${i}`;
+//     i++
+// }
+
+// attribute
+let div = document.querySelector('#box')
+console.log(div)
+
+let atr = div.getAttribute('id')
+console.log(atr)
+let atr2 = div.setAttribute('id','box2')
+console.log(atr2)

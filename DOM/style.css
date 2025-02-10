@@ -22,3 +22,11 @@ button{
     outline: none;
     border-radius: 10px;
 }
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: wheat;
+    margin: 6px;
+    border: 1px solid black;
+    text-align: center;
+}
